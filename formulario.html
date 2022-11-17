@@ -9,11 +9,11 @@
  </head>
  <body class= 'body2'>
     
-    <form action="html5-formularios.html" method="get" autocomplete class="container">
+    <form action="https://formsubmit.co/pedroberrueco@yopmail.com" method="POST" autocomplete class="container">
         <div class= course>
             <h3>Asignatura</h3>
             <label>Elige la asignaura</label>    
-            <select>
+            <select name= 'asignatura'>
                 <option value="null"></option>
                 <option value="SSII">Sistemas Informáticos</option>
                 <option value="Program">Programación</option>
@@ -25,7 +25,7 @@
          <div class= professor>
             <h3>Profesor</h3>
             <label>Elige un profesor</label>    
-            <select>
+            <select name = "profesor">
                 <option value="null"></option>
                 <option value="PSSII">Carlos Resino</option>
                 <option value="PProgram">Juan Arechabala</option>
@@ -37,13 +37,13 @@
         <div class= nota>    
             <h3>Nota</h3>
             <label> Nota</label>
-            <input type="number" min="0" max="10">
+            <input type="number" min="0" max="10" name="note">
         </div>
             
         <div class= favorita>    
             <h3>Favorita</h3>
             <label>¿Es la asignatura favorita?</label>
-            <input type="checkbox">
+            <input type="checkbox" name="checked">
      
         </div>
 
