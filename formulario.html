@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de notas</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body class= 'body2'>
+    
+    <form action="html5-formularios.html" method="get" autocomplete class="container">
+        <div class= course>
+            <h3>Asignatura</h3>
+            <label>Elige la asignaura</label>    
+            <select>
+                <option value="null"></option>
+                <option value="SSII">Sistemas Informáticos</option>
+                <option value="Program">Programación</option>
+                <option value="LMSG">Lenguajes de marcas</option>
+                <option value="BBDD">Bases de datos</option>
+            </select>
+         </div>        
+                
+         <div class= professor>
+            <h3>Profesor</h3>
+            <label>Elige un profesor</label>    
+            <select>
+                <option value="null"></option>
+                <option value="PSSII">Carlos Resino</option>
+                <option value="PProgram">Juan Arechabala</option>
+                <option value="PLMSG">Andrei Marin</option>
+                <option value="PBBDD">Enrique Arnaiz</option>
+            </select>
+        </div> 
+        
+        <div class= nota>    
+            <h3>Nota</h3>
+            <label> Nota</label>
+            <input type="number" min="0" max="10">
+        </div>
+            
+        <div class= favorita>    
+            <h3>Favorita</h3>
+            <label>¿Es la asignatura favorita?</label>
+            <input type="checkbox">
+     
+        </div>
+
+        <input type="submit" value="Enviar">
+        </form>
+    
+ </body>
+ </html>
