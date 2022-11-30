@@ -6,12 +6,6 @@ body {
   background-color: rgba(142, 121, 165, 0.866);
 }
 
-.body2 {
-    margin: 60px;
-    font-family: "Poppins", sans-serif;
-    background-color: white;
-  }
-
 .cubo {
   box-sizing: border-box;
   padding: 16px;
@@ -36,6 +30,7 @@ body {
     margin-top: 18px;
     transition: all 0.3s;
   }
+  
 .boximg img {
   width: 51px;
   height: 51px;
@@ -63,6 +58,7 @@ body {
     color: black;
   }
 
+
 .container {
   width: 100%;
   max-width: 320px;
@@ -89,20 +85,17 @@ body {
   margin: 40px auto;
 }
 
+/* Aqui se define el cambio de fondo del botón al pasar el ratón por encima */
 .boton:hover {
     background-color:greenyellow;
     color: grey;
     
 }
 
-.namefor {
-    width: 200px;
-    height: 100px;
-    
-}
-
+/* A cada div del formulario se le asigna un fondo diferente*/
 .course, .professor {
     background-color: yellowgreen;
+/* Bordes redondeadas para todos ellos, se lo asigno a cada clase indivisualmente */
     border-radius: 10px;
     border: 1px inset orange;
     margin: 10px;

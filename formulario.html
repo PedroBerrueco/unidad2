@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
  </head>
  <body>
-    
+    <!-- Se ha creado un formulario con 4 DIV, uno para cada botón -->
     <form action="https://formsubmit.co/72c092ea30336aca00a9fe5636fc8101" method="POST" autocomplete class="container">
         <div class= course>
             <h3>Asignatura</h3>
@@ -37,6 +37,7 @@
         <div class= nota>    
             <h3>Nota</h3>
             <label> Nota</label>
+            <!-- Se especifica un valor mínimo y máximo para la nota -->
             <input type="number" min="0" max="10" name="note">
         </div>
             
@@ -46,9 +47,10 @@
             <input type="checkbox" name="checked">
      
         </div>
-
+        <!-- Este formulario es funcional y los datos introducidos son recogidos por correo.
+             Por ello se ha habiltado el botón "Submit" -->
         <input type="submit" value="Enviar">
-        </form>
+    </form>
     
  </body>
  </html>
